@@ -1,0 +1,23 @@
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{ 
+    "name": "Ahmed Ali",
+    "email": "ahmed@pharma.com",
+    "password": "123456",
+    "role": "medical_rep",
+    "phone": "0123456789",
+    "area": "Cairo"
+}
+
+
+
+
+
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "email": "ahmed@pharma.com",
+    "password": "123456"
+} 

@@ -7,7 +7,8 @@ module.exports = {
 };
 
 
-
+const roles = ["admin", "sales_manager", "regional_manager", "district_manager", "medical_rep"];
+module.exports = roles;
 
 // Alternative export style:second way to export the roles as an object
 
